@@ -1925,7 +1925,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
 }
-
+.bannerbehindimage{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/8923.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bannerbehindimage2{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/cofee.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
   padding-left: 10px;
